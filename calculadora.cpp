@@ -3,24 +3,24 @@
 //Fecha: 23-09-2022
 
 #include<iostream>
-using namespace std; 
+using namespace std;
 int main()
 {
-	float x,y,s,m,d,r;
+	float BMBG_x,BMBG_y,BMBG_s,BMBG_m,BMBG_d,BMBG_r;
 	//Ingreso de datos
-	cout<<"Ingrese en valor de x=:";
-	cin>>x;
-	cout<<"Ingrese en valor de y=:";
+	cout<<"Ingrese en valor de BMBG_x=:";
+	cin>>BMBG_x;
+	cout<<"Ingrese en valor de BMBG_y=:";
 	//Operaciones 
-	cin>>y;
-	s=x+y;
-	m=x*y;
-	d=x/y;
-	r=x-y;
+	cin>>BMBG_y;
+	BMBG_s=BMBG_x+BMBG_y;
+	BMBG_m=BMBG_x*BMBG_y;
+	BMBG_d=BMBG_x/BMBG_y;
+	BMBG_r=BMBG_x-BMBG_y;
 	//Muestra los resutaldos.
-	cout<<"Las suma de "<<x<<" + "<<y<<" = "<<s<<endl;
-	cout<<"Las multiplicacion de "<<x<<" * "<<y<<" = "<<m<<endl;
-	cout<<"Las division de "<<x<<" / "<<y<<" = "<<d<<endl;
-	cout<<"Las resta de "<<x<<" - "<<y<<" = "<<r<<endl;
+	cout<<"Las suma de "<<BMBG_x<<" + "<<BMBG_y<<" = "<<BMBG_s<<endl;
+	cout<<"Las multiplicacion de "<<BMBG_x<<" * "<<BMBG_y<<" = "<<BMBG_m<<endl;
+	cout<<"Las division de "<<BMBG_x<<" / "<<BMBG_y<<" = "<<BMBG_d<<endl;
+	cout<<"Las resta de "<<BMBG_x<<" - "<<BMBG_y<<" = "<<BMBG_r<<endl;
 	return 0;
 }
