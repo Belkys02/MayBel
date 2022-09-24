@@ -3,18 +3,18 @@
 using namespace std;
 int main()
 {
-	int i=0,l;
-	float x,s=0;
-	cout<<"ingrese el limite l="; cin>>l;
+	int BMBG_i=0,BMBG_l;
+	float BMBG_x,BMBG_s=0;
+	cout<<"ingrese el limite BMBG_l="; cin>>BMBG_l;
 	do{
 
-	cout<<"ingrese el numero x="; cin>>x;
-	i=i+1;
-	s=s+x;
+	cout<<"ingrese el numero BMBG_x="; cin>>BMBG_x;
+	BMBG_i=BMBG_i+1;
+	BMBG_s=BMBG_s+BMBG_x;
 
 
 
-	}while(i<l);
-	cout<<"Se ingresaron "<<l<<" numeros "<< "que sumaron "<<s<<endl;
+	}while(BMBG_i<BMBG_l);
+	cout<<"Se ingresaron "<<BMBG_l<<" numeros "<< "que sumaron "<<BMBG_s<<endl;
 	return 0;
 }
